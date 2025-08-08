@@ -12,5 +12,13 @@ class Program
         myAnimal.MakeSound();
         myDog.MakeSound();
         myCat.MakeSound();
+
+        //Abstract Classes and Methods
+        Shape myCircle = new Circle(5);
+        Shape myRectangle = new Rectangle(4, 6);
+        myCircle.GetArea();
+        myRectangle.GetArea();
+
+    
     }
 }
