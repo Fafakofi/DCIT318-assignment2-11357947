@@ -19,6 +19,12 @@ class Program
         myCircle.GetArea();
         myRectangle.GetArea();
 
+        //Interfaces
+        IMovable myCar = new Car();
+        IMovable myBicycle = new Bicycle();
+        myCar.Move();
+        myBicycle.Move();
+
     
     }
 }
